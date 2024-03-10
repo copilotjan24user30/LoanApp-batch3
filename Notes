@@ -1,0 +1,80 @@
+chat  
+/explain
+java documentation
+question
+more readble
+Non  programming related question  - it won't answer
+select the code - make code more robust
+select the code - alternative way ( generate code without regular expression)
+translate the code into any language
+line by line comments
+generate java documentation
+
+/fix
+
+1. Two ways to generate  test file
+ 1. Right click on the   source file  - Source Action - Generate test - Choose method
+      it will generate the physical file   
+       through the prompt you can generate test cases
+        or with the help of chat  you can generate test cases
+2. select the source code  - go to chat -  /tests
+   
+Prompt ?
+
+    instructions and context passed to a language model to achieve a desired task
+- composed of following components
+  - Instructions (what do you want it to do - explain, create or generate, clarify or classify, convert or compare etc.)
+  - Context (topic, opinion, comparison, role) 
+  - Input Data (examples)
+  - Output Indiactors (in 3 senetence, tabular, json format)
+You do not need all the four elements for a prompt and the fomat depends on the task at hand.
+
+quality  prompt   --> quality output (expected output)
+
+__Prompt Engineering__
+
+practice of developing and optimizing prompts to efficiently use generative AI models
+ -Formulating precise prompts or questions t othese AI models to generate desired responses
+ -Crucial role in refining AI interactions, making them more accurate and relevant
+ - Enables all kinds of innovative a alications on top of LLMs
+
+
+ __Skills requied__
+-Basic understanding of Generativve AI / ML concepts
+-String Communication Skill
+  - Adapt at formulating cleara, concise and effective prompts
+-Analytical Skills
+  - Analyze the responses generatted by the AI and refine the prompts accordingly
+  
+__Best Practices for Prompt Engineering__
+- Start simple
+ - An iterative process that requires a lot of experimentation
+-Clearly communicate what content or information is most important
+-Structure the promt: Start by defining role, give context/input data and then provide the instructions
+-Break down the task into simpler subtasks
+-Use specific and varied examples to help models narrow its focus
+-Use constraints to limit the  scope of models output
+-Instruction
+ - instruct the model what you want to achieve such as "write", "classify", "summarize", "Translate", "order", etc.
+ - Try different instructions with different keywords, contexts, and data and wee what works best for your particular use case and task
+-Be Creative
+
+Common Tasks using Prompts
+-Text Summarization (you tube)
+-Text Classification (tech, sentiment)
+-Information Extraction(piece of text/code/json)
+-Data Organization(tabular/xml/yml/json)
+-Question Answering
+-Role Playing
+-Code Generation
+-Reasoning
+
+
+Priming
+   - setting the context
+   Referes to the practice of providing some inital input to the model before generating a response.
+ The inital input is intended to guide the model toward generating a response that is more relevant with the user's intended output
+ - Topic Specific Priming
+ - Opinion Prompting
+ - Tone and Style Prompting
+   - Tone style prompting can help guide writers to convey their content in a specific manner, whether it's formal, informal, persuasive, informative or creative.
